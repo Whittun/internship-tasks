@@ -12,62 +12,62 @@
 	padding: 8px 14px 10px 14px;
 	margin-top: 40px;
 
-	border: 1px solid $color6;
+	border: 1px solid $gray;
 	border-radius: 24px;
 
 	transition: background-color 0.3s, border-color 0.3s, outline 0.3s;
 
 	&:disabled {
 		.link-button__text {
-			color: $color4;
+			color: $dark-gray;
 		}
 
 		.link-button__svg {
-			fill: $color4;
+			fill: $dark-gray;
 		}
 
-		border-color: $color6;
+		border-color: $gray;
 
 		pointer-events: none;
 	}
 
 	@media (hover: hover) {
 		&:hover {
-			background-color: $color3;
-			border-color: $color3;
+			background-color: $blue;
+			border-color: $blue;
 
 			.link-button__text {
-				color: $color2;
+				color: $white;
 			}
 
 			.link-button__svg {
-				fill: $color2;
+				fill: $white;
 			}
 		}
 
 		&:focus {
-			outline: 2px solid $color7;
+			outline: 2px solid $light-blue;
 
 			.link-button__text {
-				color: $color3;
+				color: $blue;
 			}
 
 			.link-button__svg {
-				fill: $color3;
+				fill: $blue;
 			}
 		}
 	}
 
 	&:active {
-		background-color: $color5;
-		border-color: $color5;
+		background-color: $dark-blue;
+		border-color: $dark-blue;
 
 		.link-button__text {
-			color: $color2;
+			color: $white;
 		}
 
 		.link-button__svg {
-			fill: $color2;
+			fill: $white;
 		}
 	}
 
@@ -90,7 +90,7 @@
 	&__text {
 		font-family: Arial, sans-serif;
 		font-size: 16px;
-		color: $color1;
+		color: $black;
 
 		transition: color 0.3s;
 
@@ -116,51 +116,51 @@
 			width: 100%;
 			height: 100%;
 
-			fill: $color5;
+			fill: $dark-blue;
 
 			transition: fill 0.3s;
 		}
 	}
 
 	&--alt-color {
-		border: 1px solid $color8;
-		background-color: $color8;
+		border: 1px solid $red;
+		background-color: $red;
 
 		.link-button__text {
-			color: $color2;
+			color: $white;
 		}
 
 		.link-button__svg {
-			fill: $color2;
+			fill: $white;
 		}
 
 		&:disabled {
-			background-color: $color11;
-			border-color: $color11;
+			background-color: $light-gray;
+			border-color: $light-gray;
 		}
 
 		@media (hover: hover) {
 			&:hover {
-				border-color: $color9;
-				background-color: $color9;
+				border-color: $dark-red;
+				background-color: $dark-red;
 			}
 
 			&:focus {
-				border-color: $color7;
+				border-color: $light-blue;
 
 				.link-button__text {
-					color: $color2;
+					color: $white;
 				}
 
 				.link-button__svg {
-					fill: $color2;
+					fill: $white;
 				}
 			}
 		}
 
 		&:active {
-			border-color: $color10;
-			background-color: $color10;
+			border-color: $dark-red-2;
+			background-color: $dark-red-2;
 		}
 	}
 }

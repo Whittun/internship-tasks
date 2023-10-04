@@ -12,7 +12,7 @@
 
 	font-family: Arial, sans-serif;
 	font-size: 14px;
-	color: $color1;
+	color: $blue;
 
 	background-color: transparent;
 
@@ -20,16 +20,16 @@
 
 	@media (hover: hover) {
 		&:hover {
-			color: $color3;
+			color: $red;
 		}
 
 		&:focus {
-			background-color: $color5;
+			background-color: $blue-op-15;
 		}
 	}
 	
 	&:active {
-		color: $color4;
+		color: $dark-red;
 	}
 
 	@media (min-width: 1280px) {
@@ -40,11 +40,11 @@
 		width: 19.5px;
 		height: 19.5px;
 
-		fill: $color2;
+		fill: $dark-blue;
 	}
 
 	&--disabled {
-		color: $color6;
+		color: $gray;
 
 		pointer-events: none;
 	}

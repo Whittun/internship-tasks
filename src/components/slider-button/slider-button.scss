@@ -27,7 +27,7 @@
 			height: 60px;
 			padding-right: 3px;
 
-			border: 1px solid $color1;
+			border: 1px solid $light-gray-1;
 			border-radius: 50%;
 			outline: 3px solid transparent;
 
@@ -35,18 +35,18 @@
 
 			@media (hover: hover) {
 				&:hover {
-					background-color: $color4;
-					border-color: $color4;
+					background-color: $light-gray;
+					border-color: $light-gray;
 				}
 
 				&:focus {
-					outline: 3px solid $color5;
+					outline: 3px solid $light-blue;
 				}
 			}
 
 			&:active {
-				background-color: $color1;
-				border-color: $color1;
+				background-color: $light-gray-1;
+				border-color: $light-gray-1;
 			}
 
 			@media (min-width: 1920px) {
@@ -63,7 +63,7 @@
 				width: 21px;
 				height: 30px;
 				
-				fill: $color2;
+				fill: $dark-blue;
 
 				@media (min-width: 1920px) {
 					width: 28px;
@@ -79,7 +79,7 @@
 		font-family: Arial, sans-serif;
 		font-size: 16px;
 		font-weight: 600;
-		color: $color3;
+		color: $dark-gray;
 
 		opacity: 0.4;
 
@@ -92,18 +92,18 @@
 	&--disabled {
 		.slider-button__buttons-wrapper {
 			.slider-button__button {
-				border-color: $color1;
+				border-color: $light-gray-1;
 
 				pointer-events: none;
 			}
 
 			.slider-button__svg {
-				fill: $color6;
+				fill: $gray;
 			}
 		}
 		
 		.slider-button__text {
-			color: $color6;
+			color: $gray;
 		}
 	}
 }
